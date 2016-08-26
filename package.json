@@ -1,0 +1,21 @@
+{
+  "name": "delme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controllers.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha specs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.14.0"
+  },
+  "devDependencies": {
+    "express-route-fake": "~0.2.1",
+    "mocha": "~3.0.2",
+    "mockery": "~1.7.0",
+    "proxyquire": "~1.7.10",
+    "should": "~11.1.0"
+  }
+}
